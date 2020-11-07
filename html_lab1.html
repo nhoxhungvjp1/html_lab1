@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Comment: Các thông tin khai báo, các thông tin ẩn -->
+    <title>tự học HTML</title>
+    <h1 style="text-align:center">Hướng dẫn tạo trang web tĩnh cho người mới bắt đầu </h1>
+</head>
+<body>
+    <!-- Comment: Nội dung trang web mà người dùng sẽ thấy -->
+    <div>
+        <h3>Đầu tiên chúng ta phải biết sử dụng các thẻ (phần tử) cơ bản: Headings, Paragraphs, Divisions, Emphasis,Strong, Links, Lists, Images</h3>
+    </div>
+    <div>
+        <!-- Comment: Danh sách có sắp xếp thứ tự -->
+        <ol>
+            <li>Headings</li>
+            <!-- Comment: thẻ p dùng để đánh dấu đoạn văn,
+             tách riêng với những đoạn text bình thường-->
+                <p>HTML Headings(Tiêu đề) : <br><!-- Comment: br là thẻ đơn, nên bạn không cần thẻ đóng -->
+                    &nbsp;&nbsp;&nbsp;&nbsp;Các tiêu đề HTML được xác định bằng các thẻ <code>&lt;h1&gt;</code> tới <code>&lt;h6&gt;</code> <br>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;Thẻ <code>&lt;h1&gt;</code> xác định tiêu đề quan trọng nhất và thẻ <code>&lt;h6&gt;</code> xác định tiêu đề ít quan trọng nhất</p> <br>
+                    <p>Ví dụ :</p>
+                    <img src="img\heading.png">
+                    
+            <li>Paragraphs</li>
+                <p>HTML Paragraphs(Đoạn văn bản) : <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Các đoạn HTML được xác định bằng thẻ <code>&lt;p&gt;</code> </p> <br>
+                    <p>Ví dụ :</p>
+                    <img src="img\Para.png">
+            <li>Divisions</li>
+                <p>Thẻ <code>&lt;div&gt;</code> là gì? <br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;Đây là cái thẻ mà nó là chữ viết tắt của division (nghĩa là <strong>khu</strong> trong tiếng Việt theo từ điển kỹ thuật chung)
+                     được sử dụng để <strong>tạo ra</strong> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<strong>một khu vực kiểu block</strong> nào đó trên một website, hay bạn có thể hiểu là gom nhóm tập hợp các phần tử trên website vào một khu vực với thẻ <code>&lt;div&gt;</code></p> <br>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Ví dụ thường thì một website sẽ có 4 phần chính là header (hiển thị banner, logo), content (hiển thị nội dung), sidebar (cột bên cạnh nội dung) và footer <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;(khu vực chân website). Vậy thì bây giờ mình có thể tạo ra 4 thẻ <code>&lt;div&gt;</code> với 4 id khác nhau nhằm chia khu vực ra. Trong mỗi khu vực mình <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; có thể thêm nội dung riêng cho nó vào, ví dụ:</p> <br>
+                <p>Ví dụ :</p>
+                <img src="img\div.png">
+            <li>Emphasis</li>
+                <p>Thẻ <code>&lt;em&gt;</code> <em>để làm nghiêng chữ những phần cần lưu ý</em></p> <br>
+                <p>Ví dụ :</p>
+                <img src="img\em.png">
+            <li>Strong</li>
+                <p>Thẻ <code>&lt;strong&gt;</code> <strong>để in đậm chữ phần trọng tâm</strong></p> <br>
+                <p>Ví dụ :</p>
+                <img src="img\strong.png">
+            <li>Links</li>
+            <a href="https://github.com/nhoxhungvjp1/html_lab1/tree/main">Đây là một liên kết</a><br>
+
+            <a href="https://github.com/nhoxhungvjp1/html_lab1/tree/main" target="_blank">Liên kết này sẽ mở ở cửa sổ mới</a><br>
+            
+            <li>Lists</li>
+                <p>Để thể hiện danh sách có thứ tự ta sử dụng cặp thẻ: <code>&lt;ol&gt;</code><code>&lt;/ol&gt;</code> và <code>&lt;li&gt;</code><code>&lt;/li&gt;</code>, trong đó: <br>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;ol&gt;</code><code>&lt;/ol&gt;</code> là viết tắt của chữ "ordered list" có nghĩa là danh sách có thứ tự. <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;li&gt;</code><code>&lt;/li&gt;</code> viết tắt của chữ "list item" có nghĩa là mục của danh sách. <br>
+                    Danh sách sau đây gọi là danh sách có thứ tự:</p> <br>
+                <p>Ví dụ :</p>
+                <img src="img\list1.png">
+                <p>Để thể hiện danh sách không có thứ tự ta sử dụng cặp thẻ: <code>&lt;ul&gt;</code><code>&lt;/ul&gt;</code> và <code>&lt;li&gt;</code><code>&lt;/li&gt;</code>, trong đó: <br>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;ul&gt;</code><code>&lt;/ul&gt;</code> là viết tắt của chữ: unordered list có nghĩa là danh sách không có thứ tự <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;li&gt;</code><code>&lt;/li&gt;</code> viết tắt của chữ: list item có nghĩa là mục của danh sách. <br>
+                    Danh sách sau đây gọi là danh sách không có thứ tự:</p> <br>
+                <p>Ví dụ :</p>
+                <img src="img\list2.png">
+            <li>Images</li>
+
+            <img src="img\ricardo.png" alt="Ricardo Milos"/>
+
+        </ol>
+    </div>
+</body>
+</html>
